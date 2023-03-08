@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Shantell+Sans:wght@600;800&display=swap');
+ body {
+    margin: 0px;
+ }
+ .floatleft{
+    float: left;
+ }
+ .floatright{
+    float: right;
+ }
+
+
+.bar ul {
+    margin: 0px;
+    overflow: hidden;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+ .bar ul li{
+ list-style: none;
+ float: left;
+ 
+ }
+ .bar ul li a {
+    text-decoration: none;
+    display: block;
+    padding: 20px;
+    font-family: 'Shantell Sans', cursive;
+    font-size: 17px;
+ }
+
+ .box{
+    width:0%;
+    height: 5px;
+    display: inline-block;
+    background-color: red;
+    border-radius: 3px;
+    transition: 2s;
+ }
+ .bar ul li:hover .box{
+    width: 100%;
+ }
+ .side {
+    background-image: url('/download.jpg');
+ }
