@@ -41,5 +41,38 @@
     width: 100%;
  }
  .side {
-    background-image: url('/download.jpg');
+    background-image:url(../thanh-pho-hue.jpg);
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: auto;
+    position: relative;
+    background-origin: content-box;
  }
+ .nametitle {
+   position: absolute;
+   width: 100%;
+   top:395px;
+ }
+ .title-link{
+   text-align: center;
+   margin: 0px;
+   color: #FFF;
+ }
+ .card{
+   width: 400px;
+   background-color: red;
+   overflow: hidden;
+ }
+ .card-image-cirles img {
+   width: 100%;
+   height: 200px;
+   overflow: hidden;
+   border-radius: 360px;
+ }
+ .card-image-cirles {
+   border-radius: 1px;
+   width:200px;
+   margin: auto;
+ }
+ 
